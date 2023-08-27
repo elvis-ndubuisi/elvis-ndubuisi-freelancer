@@ -9,8 +9,8 @@ const router = createRouter({
     { path: '/', name: 'home', component: HomeView },
     { path: '/about', name: 'about', component: () => import('../views/AboutView.vue') },
     { path: '/contact', name: 'contact', component: ContactView },
-    { path: '/blogs', name: 'blogs', component: () => import('../views/BlogView.vue') },
-    { path: '/blogs/:id', name: 'id', component: BlogsView }
+    { path: '/blog', name: 'blogs', component: () => import('../views/BlogView.vue') },
+    { path: '/blog/:id', name: 'id', component: BlogsView }
   ]
 })
 

@@ -1,11 +1,11 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
+import { RouterView } from 'vue-router'
+import PageFooter from './components/PageFooter.vue'
+import CursorPointer from './components/CursorPointer.vue'
 </script>
 
 <template>
-  <header>header</header>
-
   <RouterView />
-
-  <footer>footer</footer>
+  <PageFooter />
+  <CursorPointer />
 </template>
